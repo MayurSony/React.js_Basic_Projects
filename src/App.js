@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Facebook from './Components/Facebook';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{ color: 'blue' }}>Facebook Login Authentication</h1>
+
+      <Facebook/>
     </div>
   );
 }
